@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mike: web-developer, designer, programmer</title>
+    <meta name="description"
+        content="програмирование, дизайн, разработка сайтів, портфолио, програмист, учоба, статти, новости, programmer, designer, design, web-developrment, news, portfolio, MIKE">
+    <meta name="author" content="Mike Bahneiy">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icon/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/icon/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="img/icon/favicon/safari-pinned-tab.svg" color="#202020">
+    <meta name="msapplication-TileColor" content="#202020">
+    <meta name="msapplication-TileImage" content="img/icon/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#202020">
+    <link rel='stylesheet' href='css/style.css'>
+</head>
+
+<body>
+    <div class="preloader">
+        <svg width="160" height="160" viewBox="0 0 121 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M117.404 42.2775C114.959 57.0902 111.552 64.3371 107.83 68.1084C104.187 71.799 99.9963 72.4432 94.73 73.2041L94.6835 73.2108C89.4842 73.962 83.4548 74.8331 77.4575 79.6734C71.4863 84.4925 65.7719 93.045 60.5 108.627C59.0923 112.787 57.2749 115.4 55.3185 116.907C53.4054 118.381 51.1972 118.924 48.684 118.647C43.4705 118.071 37.0476 113.959 30.5231 107.268C17.5544 93.9684 5.55494 71.9114 3.46742 54.3962C1.72465 39.7736 1.96063 30.6596 3.65871 24.8798C4.49415 22.0361 5.66578 20.0658 7.07934 18.6385C8.4947 17.2093 10.2574 16.2185 12.4371 15.4915C14.6391 14.757 17.209 14.3099 20.1997 13.9393C21.6808 13.7557 23.238 13.5939 24.8884 13.4223L24.9166 13.4194C26.5711 13.2474 28.3134 13.0661 30.1237 12.8464C37.3455 11.9699 45.7209 10.4754 54.8654 6.39521C54.8844 6.38995 54.9054 6.38415 54.9284 6.37782C55.0625 6.34094 55.2647 6.28619 55.5301 6.21668C56.061 6.07766 56.8444 5.87972 57.8414 5.64779C59.8363 5.18372 62.6815 4.58471 66.0668 4.04915C72.8586 2.97465 81.7288 2.17126 90.2381 3.17493C98.7745 4.1818 106.663 6.97143 111.848 12.815C116.975 18.5925 119.802 27.7496 117.404 42.2775Z"
+                stroke-width="3" />
+        </svg>
+    </div>
+    <div class="smooth-scroll">
+        <div class="container">
+            <header class="header">
+                <span class="header__block-blur-green"></span>
+                <span class="header__block-blur-blue"></span>
+                <span class="header__block-blur-orange"></span>
+                <nav class="header__container">
+                    <a href="index.html" class="header__logo">
+                        <span>M</span>
+                    </a>
+                    <div class="header__menu">
+                        <ul>
+                            <li><a href="#ab">About</a></li>
+                            <li><a href="#wo">works</a></li>
+                            <li><a href="#co">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__burger">
+                        <div class="burger__button">
+                            <svg width="160" height="160" viewBox="0 0 121 121" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M117.404 42.2775C114.959 57.0902 111.552 64.3371 107.83 68.1084C104.187 71.799 99.9963 72.4432 94.73 73.2041L94.6835 73.2108C89.4842 73.962 83.4548 74.8331 77.4575 79.6734C71.4863 84.4925 65.7719 93.045 60.5 108.627C59.0923 112.787 57.2749 115.4 55.3185 116.907C53.4054 118.381 51.1972 118.924 48.684 118.647C43.4705 118.071 37.0476 113.959 30.5231 107.268C17.5544 93.9684 5.55494 71.9114 3.46742 54.3962C1.72465 39.7736 1.96063 30.6596 3.65871 24.8798C4.49415 22.0361 5.66578 20.0658 7.07934 18.6385C8.4947 17.2093 10.2574 16.2185 12.4371 15.4915C14.6391 14.757 17.209 14.3099 20.1997 13.9393C21.6808 13.7557 23.238 13.5939 24.8884 13.4223L24.9166 13.4194C26.5711 13.2474 28.3134 13.0661 30.1237 12.8464C37.3455 11.9699 45.7209 10.4754 54.8654 6.39521C54.8844 6.38995 54.9054 6.38415 54.9284 6.37782C55.0625 6.34094 55.2647 6.28619 55.5301 6.21668C56.061 6.07766 56.8444 5.87972 57.8414 5.64779C59.8363 5.18372 62.6815 4.58471 66.0668 4.04915C72.8586 2.97465 81.7288 2.17126 90.2381 3.17493C98.7745 4.1818 106.663 6.97143 111.848 12.815C116.975 18.5925 119.802 27.7496 117.404 42.2775Z"
+                                    stroke-width="3" />
+                            </svg>
+                            <div class="header__menu-new header__menu">
+                                <ul>
+                                    <li class="burger__list-item"><a href="#ab">About</a></li>
+                                    <li class="burger__list-item"><a href="#wo">works</a></li>
+                                    <li class="burger__list-item"><a href="#co">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div class="main__welcome">
+                    <div class="welocome__name def__title">
+                        <svg id="svgLine" class="svg1" width="113" height="294" viewBox="0 0 113 294" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M80.5863 2C-108.518 143.5 103.243 112.05 101.994 160.5C100.454 220.266 -79.459 203 67.849 268L59.6935 256.5L60.713 274L70.3976 269.5"
+                                stroke="#4DB5FF" stroke-width="4" />
+                        </svg>
+                        <svg id="svgLine" class="svg2" width="113" height="293" viewBox="0 0 113 293" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.4137 2C212.518 143.5 0.756777 112.05 2.00551 160.5C3.54589 220.266 183.459 203 36.151 268L44.3065 256.5L43.287 274L33.6024 269.5"
+                                stroke="#BCFE2F" stroke-width="4" />
+                        </svg>
+                        <h2>Mike</h2>
+                    </div>
+                </div>
+                <div class="main__3d">
+                </div>
+                <section class="about" id="ab">
+                    <div class="def__title">
+                        <h2 class="welocome__about ">About</h2>
+                    </div>
+                    <div class="about__info">
+                        <div class="about__text-block">
+                            <p>
+                                <span>hi.&nbsp;</span><b>I'm&nbsp;</b><i>Mike&nbsp;</i> <br>
+                                <b>I'm&nbsp;</b><span>web</span><b>-developer,&nbsp;</b><br>
+                                <span>web</span><b>-designer&nbsp;</b> <br>
+                                <em>I'm</em>
+                            </p>
+                        </div>
+                        <div class="about__img-block">
+                            <span class="about__block-color about__block-color1"></span>
+                            <span class="about__block-color about__block-color2"></span>
+                            <span class="about__block-color about__block-color3"></span>
+                        </div>
+                    </div>
+                    <section class="arrow__down">
+                        <svg width="48" height="48" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="26" cy="26" r="24.5" stroke="white" stroke-width="3" />
+                            <path
+                                d="M27.5 14C27.5 13.1716 26.8284 12.5 26 12.5C25.1716 12.5 24.5 13.1716 24.5 14H27.5ZM24.9393 39.0607C25.5251 39.6464 26.4749 39.6464 27.0607 39.0607L36.6066 29.5147C37.1924 28.9289 37.1924 27.9792 36.6066 27.3934C36.0208 26.8076 35.0711 26.8076 34.4853 27.3934L26 35.8787L17.5147 27.3934C16.9289 26.8076 15.9792 26.8076 15.3934 27.3934C14.8076 27.9792 14.8076 28.9289 15.3934 29.5147L24.9393 39.0607ZM24.5 14V38H27.5V14H24.5Z"
+                                fill="white" />
+                        </svg>
+                        <svg width="48" height="48" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="26" cy="26" r="24.5" stroke="white" stroke-width="3" />
+                            <path
+                                d="M27.5 14C27.5 13.1716 26.8284 12.5 26 12.5C25.1716 12.5 24.5 13.1716 24.5 14H27.5ZM24.9393 39.0607C25.5251 39.6464 26.4749 39.6464 27.0607 39.0607L36.6066 29.5147C37.1924 28.9289 37.1924 27.9792 36.6066 27.3934C36.0208 26.8076 35.0711 26.8076 34.4853 27.3934L26 35.8787L17.5147 27.3934C16.9289 26.8076 15.9792 26.8076 15.3934 27.3934C14.8076 27.9792 14.8076 28.9289 15.3934 29.5147L24.9393 39.0607ZM24.5 14V38H27.5V14H24.5Z"
+                                fill="white" />
+                        </svg>
+                    </section>
+                </section>
+                <section class="about__iam">
+                    <div class="iam__title def__title">
+                        <h2>
+                            I'am
+                        </h2>
+                    </div>
+                    <div class="block__iam">
+                        <div class="block2-iam">
+                            <div class="iam-item__img iam2">
+                                <img src="img/aware.png" alt="">
+                                <span class="buuton-img-aim1">aware<div class="text-in__button-aim">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div></span>
+                                <span class="buuton-img-aim2">
+                                    <div class="line-aim1"></div>
+                                    <div class="line-aim2"></div>
+                                </span>
+                            </div>
+                            <div class="iam-item__img iam4">
+                                <img src="img/concentrated.png" alt="">
+                                <span class="buuton-img-aim1">outright<div class="text-in__button-aim">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div></span>
+                                <span class="buuton-img-aim2">
+                                    <div class="line-aim1"></div>
+                                    <div class="line-aim2"></div>
+                                </span>
+                            </div>
+                            <span class="iam-item__button iam-item__button1 iam6">
+                                <ion-icon name="arrow-back-outline"></ion-icon> back
+                            </span>
+                        </div>
+                        <div class="block1--aim">
+                            <span class="iam-item__button iam1 iam-item__button2">go<ion-icon
+                                    name="arrow-forward-outline">
+                                </ion-icon></span>
+                            <div class="iam-item__img iam3">
+                                <img src="img/worker.png" alt="">
+                                <span class="buuton-img-aim1">worker
+                                    <div class="text-in__button-aim">
+                                        Lorem ipsum dolor sit amet consectetur corrupti
+                                    </div>
+                                </span>
+                                <span class="buuton-img-aim2">
+                                    <div class="line-aim1"></div>
+                                    <div class="line-aim2"></div>
+                                </span>
+                            </div>
+                            <div class="iam-item__img iam5">
+                                <img src="img/sociable.png" alt="">
+                                <span class="buuton-img-aim1">sociable<div class="text-in__button-aim">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </div></span>
+                                <span class="buuton-img-aim2">
+                                    <div class="line-aim1"></div>
+                                    <div class="line-aim2"></div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="notes">
+                    <div class="notes__title def__title">
+                        <h2>
+                            Notes
+                        </h2>
+                    </div>
+                    <div class="notes__block">
+                        <p class="notes-item notes-item1">
+                            for me, a <span>project</span> is not <b>just the same</b> <em>lines of
+                                code</em> that I <span>make using the</span>
+                            <b>design</b> that I
+                            received, it is something <b>more,
+                                each</b> page has its own <em>individual technology</em>
+                        </p>
+                        <p class="notes-item notes-item2">
+                            and its own <span>blocks</span>, the main
+                            blocks are <b>header</b>,
+                            <b>main</b>, <b>footer</b>, they are on
+                            every page and <em>I try</em> to make each <span>of these components</span>
+                        </p>
+                        <p class="notes-item notes-item3">
+                            <span>according to the mood of the
+                                page</span>, it is
+                            both <em>animations</em> and
+                            <em>colors</em>, and <em>adaptive</em>, I deal more with the layout of <b>landing</b> pages
+                            and
+                            do it
+                            <b>interactively</b>.
+                            there are already many
+                        </p>
+                        <p class="notes-item notes-item4">
+                            <span>constructors</span>, but you will not be able to <span>implement</span> on the
+                            constructor
+                            what the <em>developer</em> does
+                        </p>
+                    </div>
+                </section>
+                <section class="stats">
+                    <div class="stats__title def__title">
+                        <h2>
+                            Stats
+                        </h2>
+                    </div>
+                    <div class="logos__stats">
+                        <div class="item__logo-stats sec1">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon html"><svg width="15" height="19"
+                                        viewBox="0 0 15 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.70042 3.26517H7.62672V0H0.667236L0.73363 0.875973L1.41582 9.87391H7.62672V6.60875H3.95409L3.70042 3.26517V3.26517ZM4.32595 11.5065H1.53983L1.92864 16.6334L7.61394 18.49L7.62672 18.4859V15.0887L7.61455 15.0925L4.52357 14.1106L4.32595 11.5065V11.5065Z"
+                                            fill="#EBEBEB" />
+                                        <path
+                                            d="M7.61715 9.87391H11.0348L10.7126 14.1086L7.61707 15.0915V18.4885L13.3069 16.6334L13.3486 16.0817L14.0009 7.48554L14.0686 6.60875H7.61715V9.87391ZM7.61715 3.25719V3.26517H14.3211L14.3768 2.5313L14.5033 0.875973L14.5696 0H7.61715V3.25729V3.25719Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                                <span class="logos-item__company-procent">70%</span>
+                            </div>
+                            <span class="logos-item__company-text">Html</span>
+                        </div>
+                        <div class="item__logo-stats sec2">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon"><svg width="16" height="24" viewBox="0 0 16 24"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M4 24C6.20913 24 7.99999 22.2091 7.99999 20V16H4C1.79086 16 0 17.7909 0 20C0 22.2091 1.79086 24 4 24Z"
+                                            fill="#0ACF83" />
+                                        <path d="M0 12C0 9.79086 1.79086 8 4 8H7.99999V16H4C1.79086 16 0 14.2091 0 12Z"
+                                            fill="#A259FF" />
+                                        <path
+                                            d="M0 4C0 1.79086 1.79086 0 4 0H7.99999V7.99999H4C1.79086 7.99999 0 6.20914 0 4Z"
+                                            fill="#F24E1E" />
+                                        <path
+                                            d="M8 0H12C14.2091 0 16 1.79086 16 4C16 6.20914 14.2091 7.99999 12 7.99999H8V0Z"
+                                            fill="#FF7262" />
+                                        <path
+                                            d="M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                                            fill="#1ABCFE" />
+                                    </svg>
+                                </span>
+                                <span class="logos-item__company-procent">40%</span>
+                            </div>
+                            <span class="logos-item__company-text">Figma</span>
+                        </div>
+                        <div class="item__logo-stats sec3">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon css"><svg width="14" height="19"
+                                        viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0.499868 6.60875L0.748585 9.87391H6.95948V6.60875H0.499868ZM0 0L0.25228 3.26517H6.95948V0H0V0ZM6.95948 15.0887L6.94731 15.0925L3.85634 14.1106L3.65872 11.5065H0.872596L1.2614 16.6334L6.9467 18.49L6.95948 18.4859V15.0887Z"
+                                            fill="#EBEBEB" />
+                                        <path
+                                            d="M13.4014 6.60875L13.9024 0H6.94992V3.26516H10.8607L10.6082 6.60875H6.94992V9.87391H10.3676L10.0453 14.1086L6.94983 15.0915V18.4885L12.6397 16.6334L12.6814 16.0817L13.3337 7.48554L13.4014 6.60875V6.60875Z"
+                                            fill="white" />
+                                    </svg>
+                                </span>
+                                <span class="logos-item__company-procent">70%</span>
+                            </div>
+                            <span class="logos-item__company-text css-text">Css</span>
+                        </div>
+                        <div class="item__logo-stats sec4">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon vscode-icon"><img src="img/vscode.png"
+                                        alt=""></span>
+                                <span class="logos-item__company-procent">60%</span>
+                            </div>
+                            <span class="logos-item__company-text">Vscode</span>
+                        </div>
+                        <div class="item__logo-stats sec5">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon js"><svg width="26" height="18"
+                                        viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15.7121 12.5968C16.4869 13.8619 17.495 14.7919 19.278 14.7919C20.7758 14.7919 21.7326 14.0433 21.7326 13.0089C21.7326 11.7694 20.7496 11.3304 19.1009 10.6092L18.1972 10.2215C15.5887 9.11021 13.8558 7.71804 13.8558 4.77492C13.8558 2.06384 15.9215 0 19.1498 0C21.4481 0 23.1004 0.799891 24.2911 2.89426L21.4762 4.70165C20.8564 3.59035 20.1878 3.15255 19.1498 3.15255C18.091 3.15255 17.4199 3.82421 17.4199 4.70165C17.4199 5.78609 18.0916 6.22511 19.6425 6.89677L20.5462 7.2839C23.6176 8.60097 25.3517 9.94369 25.3517 12.9625C25.3517 16.217 22.7951 18 19.3617 18C16.0045 18 13.8357 16.4002 12.7745 14.3034L15.7121 12.5968ZM2.9425 12.91C3.51036 13.9175 4.02693 14.7693 5.2689 14.7693C6.45653 14.7693 7.20574 14.3046 7.20574 12.4978V0.206383H10.8205V12.5467C10.8205 16.2897 8.62601 17.9933 5.42278 17.9933C2.52851 17.9933 0.852403 16.4955 0 14.6914L2.9425 12.91Z"
+                                            fill="black" />
+                                    </svg>
+                                </span>
+                                <span class="logos-item__company-procent">30%</span>
+                            </div>
+                            <span class="logos-item__company-text js-text">JS</span>
+                        </div>
+                        <div class="item__logo-stats sec6">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon vscode-icon"><img src="img/React.svg"
+                                        alt=""></span>
+                                <span class="logos-item__company-procent">20%</span>
+                            </div>
+                            <span class="logos-item__company-text">React</span>
+                        </div>
+                        <div class="item__logo-stats sec7">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon scss"><img height="60%" src="img/Preprocesors.svg"
+                                        alt=""></span>
+                                <span class="logos-item__company-procent">50%</span>
+                            </div>
+                            <span class="logos-item__company-text">Scss</span>
+                        </div>
+                        <div class="item__logo-stats sec8">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon windows"><svg width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.3759 0H0V11.3755H11.3759V0Z" fill="#0078D4" />
+                                        <path d="M24 0H12.624V11.3755H24V0Z" fill="#0078D4" />
+                                        <path d="M11.3759 12.6245H0V24H11.3759V12.6245Z" fill="#0078D4" />
+                                        <path d="M24 12.6245H12.624V24H24V12.6245Z" fill="#0078D4" />
+                                    </svg>
+                                </span>
+                                <span class="logos-item__company-procent">80%</span>
+                            </div>
+                            <span class="logos-item__company-text">Windows</span>
+                        </div>
+                        <div class="item__logo-stats sec9">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon ai"><svg width="24" height="22"
+                                        viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.3832 15.7198H5.43868L3.70254 20.9899C3.68258 21.1505 3.57283 21.2308 3.37327 21.2308H0.230257C0.030701 21.2308 -0.0391438 21.1304 0.0207232 20.9296L6.24688 3.04157C6.38657 2.74043 6.47637 2.17829 6.51628 1.35516C6.51628 1.2347 6.58613 1.17447 6.72582 1.17447H11.0362C11.136 1.17447 11.2158 1.22466 11.2757 1.32504L18.2203 20.9597C18.2801 21.1404 18.2203 21.2308 18.0407 21.2308H14.5085C14.3688 21.2308 14.2691 21.1605 14.2092 21.02L12.3832 15.7198ZM6.21695 12.7987H11.605C11.5252 12.5176 11.1061 11.2428 10.3478 8.97414C9.60941 6.68543 9.1205 5.11948 8.88103 4.27627H8.85109C8.61163 5.30016 7.73358 8.14097 6.21695 12.7987Z"
+                                            fill="#F2A032" />
+                                        <path
+                                            d="M20.0787 20.9597V6.80589C20.0787 6.64528 20.1585 6.56498 20.3182 6.56498H23.6408C23.8004 6.56498 23.8803 6.64528 23.8803 6.80589V20.9899C23.8803 21.1505 23.8004 21.2308 23.6408 21.2308H20.3481C20.1685 21.2308 20.0787 21.1404 20.0787 20.9597ZM23.4612 3.52341C23.102 3.88478 22.6131 4.06547 21.9945 4.06547C21.3758 4.06547 20.8869 3.88478 20.5277 3.52341C20.1685 3.16203 19.9889 2.67016 19.9889 2.04779C19.9889 1.4455 20.1785 0.953628 20.5577 0.572177C20.9368 0.190726 21.4257 0 22.0244 0C22.6231 0 23.102 0.190726 23.4612 0.572177C23.8204 0.953628 24 1.4455 24 2.04779C24 2.67016 23.8204 3.16203 23.4612 3.52341Z"
+                                            fill="#F2A032" />
+                                    </svg>
+                                </span>
+                                <span class="logos-item__company-procent">30%</span>
+                            </div>
+                            <span class="logos-item__company-text js-text">AI</span>
+                        </div>
+                        <div class="item__logo-stats sec10">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon bg-botst"><img src="img/botstrap.svg"
+                                        alt=""></span>
+                                <span class="logos-item__company-procent">50%</span>
+                            </div>
+                            <span class="logos-item__company-text">Botstrap</span>
+                        </div>
+                        <div class="item__logo-stats sec11">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon"><img height="100%" src="img/Lightroom.svg"
+                                        alt=""></span>
+                                <span class="logos-item__company-procent">40%</span>
+                            </div>
+                            <span class="logos-item__company-text">Lightroom</span>
+                        </div>
+                        <div class="item__logo-stats sec12">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon windows"><svg width="24" height="30"
+                                        viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_7_232)">
+                                            <path
+                                                d="M23.2364 10.0154C23.0654 10.1476 20.0462 11.8428 20.0462 15.6122C20.0462 19.9721 23.888 21.5145 24.0029 21.5527C23.9853 21.6467 23.3926 23.665 21.9774 25.7216C20.7155 27.5314 19.3975 29.3382 17.3926 29.3382C15.3877 29.3382 14.8717 28.1777 12.5572 28.1777C10.3017 28.1777 9.49975 29.3764 7.66585 29.3764C5.83194 29.3764 4.55233 27.7018 3.08108 25.6452C1.3769 23.2302 0 19.4785 0 15.9177C0 10.2064 3.72678 7.17737 7.39459 7.17737C9.34349 7.17737 10.9681 8.45243 12.1916 8.45243C13.3563 8.45243 15.1725 7.10098 17.3897 7.10098C18.23 7.10098 21.2491 7.17737 23.2364 10.0154ZM16.3371 4.68306C17.2541 3.59897 17.9027 2.09474 17.9027 0.590524C17.9027 0.381931 17.885 0.1704 17.8467 0C16.3548 0.0558207 14.5799 0.990083 13.5096 2.22695C12.6693 3.17884 11.885 4.68306 11.885 6.20785C11.885 6.43701 11.9233 6.66617 11.941 6.73961C12.0354 6.75724 12.1887 6.77781 12.342 6.77781C13.6806 6.77781 15.3641 5.88468 16.3371 4.68306Z"
+                                                fill="black" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_7_232">
+                                                <rect width="24" height="29.3793" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                                <span class="logos-item__company-procent">40%</span>
+                            </div>
+                            <span class="logos-item__company-text">Apple</span>
+
+                        </div>
+                        <div class="item__logo-stats sec13">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon wordpress"><img height="70%"
+                                        src="img/wordpress.svg" alt=""></span>
+                                <span class="logos-item__company-procent">40%</span>
+                            </div>
+                            <span class="logos-item__company-text">Wordpress</span>
+                        </div>
+                        <div class="item__logo-stats sec14">
+                            <div class="block__flex-aim-img">
+                                <span class="logos-item__company-icon vscode-icon"><img src="img/Python.svg"
+                                        alt=""></span>
+                                <span class="logos-item__company-procent">20%</span>
+                            </div>
+                            <span class="logos-item__company-text">Pyton</span>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="works" id="wo">
+                    <div class="works__title def__title">
+                        <h2>
+                            Works
+                        </h2>
+                    </div>
+                    <div class="workses-cont">
+                        <div class="menu__filter-works">
+                            <p class="filter filter__all" data-filter="item">All</p>
+                            <p class="filter filter__mini" data-filter="one">Mini</p>
+                            <p class="filter filter__midle" data-filter="two">Midle</p>
+                            <p class="filter filter__big" data-filter="three">Big</p>
+                            <div class="menu__filter-works-active"></div>
+                        </div>
+                        <div class="button-resize__work">
+                            <span>Big</span>
+                            <span class="small">Small</span>
+                        </div>
+                        <div class="container-wors">
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work10.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="black__grad">Beats</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mikedeveloprment.github.io/BEATS/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article" style="background-color: #404040;">
+                                            <ion-icon name="bluetooth-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work9.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="flower__grad">Plantex</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mikedeveloprment.github.io/PLANTS/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article flower__bg">
+                                            <ion-icon name="leaf-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item three">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work4.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="prim__gard">Prim</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mioc8.github.io/dsfghj/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article" style="background-color: #808080;">
+                                            <ion-icon name="restaurant-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item one">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work15.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="widgets__grad">Widgets</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mioc8.github.io/widgets/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article or1">
+                                            <ion-icon name="apps-sharp"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work8.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="land__grad">Landio</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mikedeveloprment.github.io/landio/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article land__bg">
+                                            <ion-icon name="person-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item one">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work13.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="nft1__gard">NFT</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mioc8.github.io/vzmzgfx/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article nft1__bg">
+                                            <ion-icon name="cube-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work11.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="port__grad">Old Portfolio</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://miha7777.github.io/myx/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article or1">
+                                            <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work16.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="ghost__grad">Ghost</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://miha7777.github.io/wertyuiop-/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article ghost__bg">
+                                            <ion-icon name="person-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work7.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="rolex__grad">Rolex</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mikedeveloprment.github.io/WATCHES/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article or1">
+                                            <ion-icon name="watch-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item one">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work14.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="new__grad">Landing</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a href="https://mioc8.github.io/aga/">follow</a>
+                                            </div>
+                                        </span>
+                                        <span class="icon__article new__bg">
+                                            <ion-icon name="bulb-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work10.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="black__grad">Beats</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mikedeveloprment.github.io/BEATS/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article" style="background-color: #404040;">
+                                            <ion-icon name="bluetooth-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work9.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="flower__grad">Plantex</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mikedeveloprment.github.io/PLANTS/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article flower__bg">
+                                            <ion-icon name="leaf-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item one">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work15.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="widgets__grad">Widgets</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mioc8.github.io/widgets/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article or1">
+                                            <ion-icon name="apps-sharp"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work8.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="land__grad">Landio</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://mikedeveloprment.github.io/landio/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article land__bg">
+                                            <ion-icon name="person-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="item two">
+                                <img class="img-border__work" src="img/Group 1.png" alt="">
+                                <div class="container__img-work"><img class="img__works" src="img/work16.png" alt="">
+                                </div>
+                                <div class="block-info__work-article">
+                                    <p class="ghost__grad">Ghost</p>
+                                    <div class="spanu__in-artikle">
+                                        <span class="text__article">
+                                            <div class="text__spans"><a
+                                                    href="https://miha7777.github.io/wertyuiop-/">follow</a></div>
+                                        </span>
+                                        <span class="icon__article ghost__bg">
+                                            <ion-icon name="person-outline"></ion-icon>
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <section class="widgets">
+                    <div class="widgets__title def__title">
+                        <h2>
+                            Widgets
+                        </h2>
+                    </div>
+                    <div class="widget__weather">
+                        <div class="header__weather">
+                            <ion-icon name="arrow-back-outline"></ion-icon>Weather
+                        </div>
+                        <section class="input-part">
+                            <p class="info-txt"></p>
+                            <input type="text" tabindex="-2" spellcheck="false" placeholder="Enter city name" required>
+
+                            <div class="separator">
+                            </div>
+                            <button>Get Device Location</button>
+                        </section>
+                        <section class="weather-part">
+                            <img src="" alt="">
+                            <div class="temp">
+                                <span class="numb">_</span>
+                                <span class="deg">°</span>C
+                            </div>
+                            <div class="weather">_ _</div>
+                            <div class="location">
+                                <i class='bx bx-map'></i>
+                                <span>_, _</span>
+                            </div>
+                            <div class="bottom-details">
+                                <div class="column feels">
+                                    <img src="img/icons8-fahrenheit-100.png" alt="">
+                                    <div class="details">
+                                        <div class="temp">
+                                            <span class="numb-2">_</span>
+                                            <span class="deg">°</span>C
+                                        </div>
+                                        <p>Feels like</p>
+                                    </div>
+                                </div>
+                                <div class="column humidity">
+                                    <img src="img/icons8-humidity-100.png" alt="">
+                                    <div class="details">
+                                        <span>_</span>
+                                        <p>Humidity</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="widget__time">
+                        <div class="header__time">
+                            <ion-icon name="time-outline"></ion-icon> Time
+                        </div>
+                        <div class="block__lines-clock">
+                            <div class="clock__line clock__line1"></div>
+                            <div class="clock__line clock__line2"></div>
+                            <div class="clock__line clock__line3"></div>
+                        </div>
+                        <div class="block__clocks">
+                            <span class="clock1">00</span>
+                            <span class="clock2">00</span>
+                            <span class="clock3">00</span>
+                        </div>
+                    </div>
+                    <div class="widget__tags">
+                        <div class="header__tags">
+                            <ion-icon name="pricetags-outline"></ion-icon>tags
+                        </div>
+                        <div class="content__tags">
+                            <p>create a tag</p>
+                            <ul><input type="text" tabindex="-2" placeholder="New Tag" spellcheck="false"></ul>
+                        </div>
+                        <div class="details__tags">
+                            <p><span>10 &nbsp;</span> &nbsp;more</p>
+                            <button>Remove All</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="similarity">
+                    <div class="similarity__title def__title">
+                        <h2>
+                            Similarity
+                        </h2>
+                    </div>
+                    <div class="block__sucsesfull">
+                        <span class="block__spans"></span>
+                        <div class="sucsesfull__count"></div>
+                        <div class="icon-rest">
+                            <ion-icon name="refresh-outline"></ion-icon>
+
+                        </div>
+                    </div>
+                    <div class="block__sil">
+                        <div id="hg" class="block-flex__sil">
+                            <span>
+                                <div></div>
+                                <ion-icon name="american-football-outline"></ion-icon>
+                            </span>
+
+                            <span>
+                                <div></div>
+                                <ion-icon name="bicycle-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="fast-food-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="game-controller-outline"></ion-icon>
+                            </span>
+                        </div>
+                        <div class="block-flex__sil">
+                            <span>
+                                <div></div>
+                                <ion-icon name="hammer-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="hardware-chip-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="flask-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="hammer-outline"></ion-icon>
+                            </span>
+                        </div>
+                        <div class="block-flex__sil">
+                            <span>
+                                <div></div>
+                                <ion-icon name="library-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="male-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="male-female-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                            </span>
+                        </div>
+                        <div class="block-flex__sil">
+                            <span>
+                                <div></div>
+                                <ion-icon name="snow-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="sunny-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="thunderstorm-outline"></ion-icon>
+                            </span>
+                            <span>
+                                <div></div>
+                                <ion-icon name="videocam-outline"></ion-icon>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+                <section class="handyman">
+                    <div class="handyman__title def__title">
+                        <img src="img/icons8-gear-100.png" alt="" class="img__handyman1">
+                        <h2>Handyman</h2>
+                        <img src="img/icons8-gear-100.png" alt="" class="img__handyman2">
+                    </div>
+                    <div class="handyman-text__block2">
+                        <div class="handyman-text__block">
+                            <span class="header__block-blur-green"></span>
+                            <span class="header__block-blur-blue"></span>
+                            <span class="header__block-blur-orange"></span>
+                            <div class="handyman__text">
+                                <p>adds up to</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="handyman__arrows">
+                        <svg width="2" height="10" viewBox="0 0 2 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1V11.1794V19" stroke="#BCFE2F" stroke-width="1" stroke-linecap="round" />
+                        </svg>
+                        <svg width="2" height="10" viewBox="0 0 2 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1V11.1794V19" stroke="#BCFE2F" stroke-width="1" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="block-animate__handyman-body">
+                        <div class="handyman__body">
+                            <div class="handyman-body__block-header">
+                                <p>Header
+                                </p>
+                            </div>
+                            <div class="handyman-body__block-main">
+                                <p>Main</p>
+                            </div>
+                            <div class="handyman-body__block-footer">
+                                <p>Footer</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="eat">
+                    <div class="eat__title def__title">
+                        <h2>
+                            Room
+                        </h2>
+                    </div>
+                    <div class="block__eats">
+                        <img src="img/icon/Знімок екрана 2022-08-16 230231.png" alt="">
+                    </div>
+                    <a href="room.html" class="a3d button__go">Open 3d</a>
+                </section>
+                <section class="imgs">
+                    <div class="img__title def__title">
+                        <h2>
+                            Eat
+                        </h2>
+                    </div>
+                    <div class="block__images">
+                        <div class="item__images">
+                            <img class="animimg1" src="img/3d-fluency-hamburger.png" alt="">
+                            <figcaption>
+                                <span class="front">burger</span>
+                                <span class="back yellow">reserver</span>
+                            </figcaption>
+                        </div>
+                        <div class="item__images">
+                            <img class="img-deb1 animimg2" src="img/3d-fluency-grapes.png" alt="">
+                            <figcaption>
+                                <span class="front">grapes</span>
+                                <span class="back ">reserver</span>
+                            </figcaption>
+                        </div>
+                        <div class="item__images">
+                            <img class="img-deb2 animimg3" src="img/3d-fluency-orange-pumpkin.png" alt="">
+                            <figcaption>
+                                <span class="front">pumpkin</span>
+                                <span class="back">reserver</span>
+                            </figcaption>
+                        </div>
+                        <div class="item__images">
+                            <img class="img-deb5 animimg4" src="img/casual-life-3d-two-yellow-bananas-1.png" alt="">
+                            <figcaption class="purple">
+                                <span class="front">banana</span>
+                                <span class="back">reserver</span>
+                            </figcaption>
+                        </div>
+                        <div class="item__images">
+                            <img class="img-deb3 animimg5" src="img/business-3d-raspberries.png" alt="">
+                            <figcaption>
+                                <span class="front white">raspber</span>
+                                <span class="back">reserver</span>
+                            </figcaption>
+                        </div>
+                        <div class="item__images">
+                            <img class="img-deb4 animimg6"
+                                src="img/business-3d-side-view-of-coffee-paper-cup-with-sleeve.png" alt="">
+                            <figcaption>
+                                <span class="front">coffe</span>
+                                <span class="back">reserver</span>
+                            </figcaption>
+                        </div>
+                    </div>
+                </section>
+                <section class="contact" id="co">
+                    <div class="contact__title def__title">
+                        <h2>
+                            Contact
+                        </h2>
+                    </div>
+                    <div class="slider__main">
+                        <div class="slider-item__main">
+                            <a href="https://www.google.com/"><img src="img/3d-fluency-chrome-browser.png"></a>
+                        </div>
+                        <div class="slider-item__main">
+                            <a href="https://www.instagram.com/"><img src="img/3d-fluency-instagram-logo.png"></a>
+                        </div>
+                        <div class="slider-item__main ">
+                            <a href="https://www.tiktok.com/"><img src="img/3d-fluency-tiktok-logo.png"></a>
+                        </div>
+                        <div class="slider-item__main">
+                            <a href="https://web.telegram"><img src="img/3d-fluency-telegram-logo.png"></a>
+                        </div>
+                        <div class="slider-item__main">
+                            <a href="https://www.youtube.com/"><img src="img/3d-fluency-youtube-logo.png"></a>
+                        </div>
+                        <div class="slider-item__main">
+                            <a href="https://github.com/">
+                                <img src="img/3d-fluency-github-logo.png">
+                            </a>
+                        </div>
+                        <div class="slider-item__main">
+                            <a href="https://www.snapchat.com/"><img src="img/3d-fluency-snapchat.png"></a>
+                        </div>
+                    </div>
+
+                </section>
+                <div class="nons">
+                    <p><span>Thank</span><br> for watching</p>
+                    <a href="#" class="footer__logo">
+                        M
+                    </a>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.0.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r99/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@r92/examples/js/loaders/GLTFLoader.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/Flip.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+    <script type="module">
+        import { OrbitControls } from 'https://unpkg.com/three@0.121.1/examples/jsm/controls/OrbitControls.js';;
+        const threedcont = document.querySelector(".main__3d");
+        let scene;
+        let renderer;
+        let camera;
+        const m3 = document.querySelector(".main__3d");
+
+        scene = new THREE.Scene();
+
+        camera = new THREE.PerspectiveCamera(75, window.innerWidth / m3.clientHeight, 0.1, 1000);
+        camera.position.z = 38;
+        camera.position.y = 16;
+
+
+        renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+        renderer.setSize(window.innerWidth, m3.clientHeight);
+        renderer.setClearColor(0x00ffff, 0);
+
+        renderer.domElement.setAttribute("id", "mike")
+        threedcont.insertAdjacentElement('afterbegin', renderer.domElement)
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.update();
+
+
+
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.01;
+        controls.maxDistance = 50;
+        controls.minDistance = 36.9;
+        controls.enableZoom = true;
+        controls.rotateSpeed = 0.5
+        controls.enablePan = false;
+        controls.keys = {
+            LEFT: 'None', //left arrow
+            UP: 'None', // up arrow
+            RIGHT: 'None', // right arrow
+            BOTTOM: 'None' // down arrow
+        }
+        controls.minPolarAngle = 0.9;
+        controls.maxPolarAngle = 1.2;
+        controls.zoomSpeed = 0.45;
+
+
+        let light = new THREE.DirectionalLight("#fff", 1);
+        let ambient = new THREE.AmbientLight("#fff");
+        light.position.set(0, 300, 700);
+        scene.add(light);
+        scene.add(ambient);
+
+        const texture = new THREE.TextureLoader().load("mod2/textures/Scene_-_Root_baseColor.png");
+        texture.wrapS = THREE.RepeatWrapping;
+        texture.wrapT = THREE.RepeatWrapping;
+        texture.repeat.set(4, 4);
+        const texture1 = new THREE.TextureLoader().load("mod2/textures/Scene_-_Root_metallicRoughness.png");
+        texture1.wrapS = THREE.RepeatWrapping;
+        texture1.wrapT = THREE.RepeatWrapping;
+        texture1.repeat.set(4, 4);
+        let loader = new THREE.GLTFLoader();
+        let obj = null;
+        // Load a glTF resource
+        loader.load('mod2/scene.gltf', function (gltf) {
+            obj = gltf;
+            obj.scene.scale.set(10, 9.4, 10);
+            obj.scene.position.set(0, -12, 0)
+            obj.scene.rotation.y = 1.14
+            scene.add(obj.scene);
+        });
+
+        function animate() {
+            requestAnimationFrame(animate);
+            if (obj) {
+                obj.scene.rotation.y += 0.004;
+            }
+            controls.update();
+            renderer.render(scene, camera);
+        }
+        animate();
+        // console.clear()
+    </script>
+</body>
